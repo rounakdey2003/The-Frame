@@ -144,9 +144,30 @@ html::after {
   transition: opacity 0.4s ease;
 }
 
+html::before {
+  content: "Optimized For Desktop";
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50px);
+  color: $black;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  opacity: 0.6;
+  transition: opacity 0.4s ease;
+}
+
 html.loaded {
   &::after {
     animation-play-state: paused;
+    opacity: 0 !important;
+  }
+
+  &::before {
     opacity: 0 !important;
   }
 
