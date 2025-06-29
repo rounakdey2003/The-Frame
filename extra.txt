@@ -1,0 +1,9 @@
+      <nav class="frame__tags">
+        <a href="https://github.com/rounakdey2003">#git</a>
+      </nav>
+
+      <a class="frame__github" href="https://github.com/rounakdey2003">GitHub</a>
+
+      <header class="frame__header">
+        <h1 class="frame__title manga-text-primary">The Frame by <a href="https://www.github.com/rounakdey2003" target="_blank" class="manga-text-accent">Rounak</a></h1>
+      </header>

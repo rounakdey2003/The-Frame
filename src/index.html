@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="loading">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.scss" />
+    <title>Frame</title>
+    <meta name="author" content="Rounak Dey" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script>document.documentElement.className="js";</script>
+  </head>
+  <body>
+    <div class="manga-container">
+      <div class="bg-writing">
+
+        <span class="bg-text bg-text--1">Demon</span>
+        <span class="bg-text bg-text--2">Gojo</span>
+        <span class="bg-text bg-text--3">Jujutsu</span>
+        <span class="bg-text bg-text--4">Sword</span>
+        <span class="bg-text bg-text--5">Assassin</span>
+        <span class="bg-text bg-text--6">芸術性</span>
+        <span class="bg-text bg-text--7">瞬間を捉える</span>
+        <span class="bg-text bg-text--8">美しさ</span>
+        <span class="bg-text bg-text--9">Ghoul</span>
+        <span class="bg-text bg-text--10">Light</span>
+        <span class="bg-text bg-text--11">本質</span>
+        <span class="bg-text bg-text--12">発見</span>
+        <span class="bg-text bg-text--13">Soul</span>
+        <span class="bg-text bg-text--14">Emotion</span>
+        <span class="bg-text bg-text--15">Naruto</span>
+        <span class="bg-text bg-text--16">呼吸</span>
+        <span class="bg-text bg-text--17">Titans</span>
+        <span class="bg-text bg-text--18">神秘</span>
+        <span class="bg-text bg-text--19">自由</span>
+        <span class="bg-text bg-text--20">超越</span>
+      </div>
+
+      <div class="manga-bg-effects">
+        <div class="manga-bg-effects__speed-lines"></div>
+        <div class="manga-bg-effects__action-lines">
+          <div class="action-line"></div>
+          <div class="action-line"></div>
+          <div class="action-line"></div>
+          <div class="action-line"></div>
+          <div class="action-line"></div>
+          <div class="action-line"></div>
+        </div>
+        <div class="manga-bg-effects__halftone"></div>
+        <div class="manga-bg-effects__focus-lines"></div>
+      </div>
+
+      <div class="manga-bg-pattern manga-bg-pattern--cherry-blossoms"></div>
+
+      <div class="manga-frame-border"></div>
+
+      <div class="manga-onomatopoeia manga-onomatopoeia--impact manga-onomatopoeia--top manga-onomatopoeia--right" data-text="ドカン！">ドカン！</div>
+      <div class="manga-onomatopoeia manga-onomatopoeia--movement manga-onomatopoeia--bottom manga-onomatopoeia--left" data-text="ビュン">ビュン</div>
+
+      <div class="manga-speech manga-speech--thought" style="top: 20%; right: 15%;">
+        The art comes to life...
+      </div>
+      
+      <div class="manga-speech manga-speech--internal" style="bottom: 25%; left: 20%;">
+        <h1 class="frame__title manga-text-primary">The Frame by <a href="https://www.github.com/rounakdey2003" target="_blank" class="manga-text-accent">Rounak</a></h1> 
+      </div>
+
+      <div class="manga-emotion manga-emotion--love" style="top: 30%; left: 10%;">
+        <div class="manga-svg-icon" style="width: 2rem; height: 2rem; filter: drop-shadow(0 0 15px #ff69b4) drop-shadow(0 0 25px #ff1493);">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="love-gradient-static" cx="50%" cy="40%" r="60%">
+                <stop offset="0%" style="stop-color:#ff69b4;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#dc143c;stop-opacity:1" />
+              </radialGradient>
+            </defs>
+            <path d="M50,80 C50,80 15,55 15,35 C15,20 25,10 40,10 C45,10 50,15 50,15 C50,15 55,10 60,10 C75,10 85,20 85,35 C85,55 50,80 50,80 Z" 
+                  fill="url(#love-gradient-static)" 
+                  stroke="#ffffff" 
+                  stroke-width="2"/>
+            <ellipse cx="42" cy="30" rx="12" ry="8" fill="#ffb6c1" opacity="0.6"/>
+            <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="1.5s" repeatCount="indefinite"/>
+          </svg>
+        </div>
+      </div>
+      <div class="manga-emotion manga-emotion--shock" style="bottom: 40%; right: 20%;">
+        <div class="manga-svg-icon" style="width: 2.5rem; height: 2.5rem; filter: drop-shadow(0 0 18px #ffff00) drop-shadow(0 0 30px #ffd700);">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="shock-gradient-static" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ffff00;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#ffd700;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <path d="M30,10 L60,10 L45,40 L70,40 L40,90 L55,50 L30,50 Z" 
+                  fill="url(#shock-gradient-static)" 
+                  stroke="#ffffff" 
+                  stroke-width="2"/>
+            <circle cx="25" cy="25" r="3" fill="#ffff00" opacity="0.8">
+              <animate attributeName="opacity" values="0;1;0" dur="0.3s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="75" cy="35" r="2" fill="#ffd700" opacity="0.6">
+              <animate attributeName="opacity" values="0;1;0" dur="0.4s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+      </div>
+
+      <div class="manga-screen-tone manga-screen-tone--dots" style="top: 0; left: 0; width: 30%; height: 40%; opacity: 0.1;"></div>
+      <div class="manga-screen-tone manga-screen-tone--lines-diagonal" style="bottom: 0; right: 0; width: 40%; height: 30%; opacity: 0.08;"></div>
+
+      <div class="manga-panel manga-panel--small manga-panel--top-left manga-panel-transition--fade-in" style="opacity: 0.7;">
+        <h1 class="canvas-text canvas-text--right manga-sketch-border manga-text-effect--glow" data-text="THE FRAME">THE FRAME</h1>
+      </div>
+      <div class="manga-panel manga-panel--medium manga-panel--bottom-right manga-panel-transition--slide-left" style="opacity: 0.6;">
+        <p class="canvas-text canvas-text--left manga-sketch-border manga-text-effect--glow" data-text="Experience dynamic animations and visual storytelling">Experience dynamic animations and visual storytelling</p>
+      </div>
+      <main class="c-home c-page">
+        <div class="canvas-container">
+          <canvas id="gl"></canvas>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>
